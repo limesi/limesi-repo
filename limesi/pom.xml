@@ -17,6 +17,10 @@
 
     <modules>
         <module>limesi-eureka</module>
+        <module>limesi-config</module>
+        <module>limesi-gateway</module>
+        <module>limesi-auth</module>
+        <module>limesi-common</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

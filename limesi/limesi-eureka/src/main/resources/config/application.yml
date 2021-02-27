@@ -4,9 +4,9 @@ eureka:
   instance:
     hostname: localhost
   client:
-    #####ÊÇ·ñÏò×¢²áÖĞĞÄ×¢²á×Ô¼º
+    #####æ˜¯å¦å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
     register-with-eureka: false
-    #####ÊÇ·ñ¼ìË÷·şÎñ
+    #####æ˜¯å¦å¼€å¯æœåŠ¡æ‰«æ
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

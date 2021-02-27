@@ -1,6 +1,8 @@
 server:
   port: 6066
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
@@ -10,3 +12,9 @@ spring:
           username: limesi@163.com
           password: Li049675
           default-label: master
+        encrypt:
+          enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5055/eureka/

@@ -1,0 +1,6 @@
+encrypt:
+  key-store:
+    alias: config-server
+    password: QAZ1127
+    secret: okm74123.
+    location: /security/encryp-info.jks
